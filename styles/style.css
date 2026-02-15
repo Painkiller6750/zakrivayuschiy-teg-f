@@ -44,7 +44,7 @@
     border: 2px solid var(--border-color);
     background-color: var(--bg-white);
     inline-size: 100%;
-    min-block-size: 364px;
+    padding-bottom: 125px;
 }
 
 .logo-link {
@@ -63,6 +63,7 @@
     font-family: var(--accent-font), serif;
     font-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
     text-transform: uppercase;
+    padding-top: 131px;
 }
 
 .accent-header-title {
@@ -295,12 +296,11 @@
     font-size: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
     background-color: var(--bg-white);
     inline-size: 353px;
-    min-block-size: 191px;
     padding: 0;
 }
 
 .dialog::backdrop {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .dialog-inner-content-wraper {
@@ -309,7 +309,6 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    min-block-size: 191px;
     block-size: 100%;
     inline-size: 100%;
     padding: 30px;
@@ -330,24 +329,18 @@
     gap: 20px;
     align-items: center;
     inline-size: 293px;
-    block-size: 63px;
 }
 
 /* Desktop first*/
 
-@media (width <=390px) {
+/*@media (width <=390px) {
     .page {
         inline-size: 100%;
     }
 }
-
+*/
 @media (width <= 375px) {
-    .page {
-        inline-size: 100%;
-    }
-
     .header {
-        min-block-size: 327px;
         margin-block-start: 100px;
         margin-block-end: 100px;
     }
