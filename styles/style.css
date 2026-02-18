@@ -39,12 +39,13 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
-    margin-block-start: 102px;
-    margin-block-end: 102px;
+    margin-block-start: 100px;
+    margin-block-end: 100px;
     border: 2px solid var(--border-color);
     background-color: var(--bg-white);
     inline-size: 100%;
-    padding-bottom: 125px;
+    padding-bottom: 128px;
+    padding-top: 128px;
 }
 
 .logo-link {
@@ -63,7 +64,6 @@
     font-family: var(--accent-font), serif;
     font-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
     text-transform: uppercase;
-    padding-top: 131px;
 }
 
 .accent-header-title {
@@ -118,8 +118,8 @@
     margin: 0;
     padding: 0;
     clip-path: inset(0);
-    border-block-start: 1px solid var(--border-color);
-    border-block-end: 1px solid var(--border-color);
+    border-block-start: 2px solid var(--border-color);
+    border-block-end: 2px solid var(--border-color);
 }
 
 /* Images filtres */
@@ -223,7 +223,7 @@
 .card__buttons {
     position: relative;
     display: flex;
-    column-gap: 7px;
+    column-gap: 5px;
     justify-content: flex-end;
     margin-inline-end: 25px;
     margin-block-end: 25px;
@@ -265,7 +265,7 @@
     margin-inline-start: auto;
     margin-inline-end: auto;
     margin-block-end: 105px;
-    margin-block-start: 52px;
+    margin-block-start: 50px;
 }
 
 .save-button:hover .save-wraper {
@@ -340,9 +340,9 @@
 }
 */
 @media (width <= 375px) {
-    .header {
-        margin-block-start: 100px;
-        margin-block-end: 100px;
+    .header{
+        padding-bottom: 120px;
+        padding-top: 120px;
     }
 
     .card__label {
