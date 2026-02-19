@@ -180,6 +180,7 @@
     position: relative;
     border: 2px solid var(--border-color);
     background-color: var(--bg-white);
+    color: var(--white-button-text);
     font-family: var(--accent-font), serif;
     font-size: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
     font-weight: var(--font-weight);
@@ -268,9 +269,6 @@
     margin-block-start: 50px;
 }
 
-.save-button:hover .save-wraper {
-    filter: invert(1);
-}
 
 .save-wraper {
     inline-size: 21px;
@@ -280,6 +278,7 @@
 .save-button__icon {
     inline-size: 100%;
     block-size: 100%;
+    mix-blend-mode: difference;
 }
 
 .save-dialog-wraper {
